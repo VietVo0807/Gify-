@@ -4,7 +4,7 @@ const path = require('path');
 //Create Window
 function Window(){
     const win = new BrowserWindow({
-        width: 1280,
+        width: 1200,
         height: 800,
         webPreferences: {
             //allow to use node js
@@ -22,11 +22,11 @@ function Window(){
 
 //create the window
 app.whenReady().then(() => {
-    createWindow();
+    Window();
     
     app.on('activate', () => {
         if (BrowserWindow.getAllWindows().length === 0){
-            createWindow();
+            Window();
         }
     });
 });
