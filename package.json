@@ -1,9 +1,10 @@
 {
-  "name": "gify---desktoppal",
+  "name": "gify-",
   "version": "1.0.0",
   "description": "Choose your own favorite GIF to become your work buddy. This is a self-made project boring idea from AmaView on Steam and serve the purpose for education only. Please support the original content and its creator on Steam.",
   "main": "src/main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/VietVo0807/Gify---DesktopPal/issues"
